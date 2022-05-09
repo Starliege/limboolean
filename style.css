@@ -1,0 +1,57 @@
+body {
+    background: url(./img/background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.logo {
+    text-align: center;
+}
+.logo>img {
+    width: 300px;
+}
+h1 {
+    color: #01d901;
+    text-align: center;
+}
+.buttons-container{
+    background-color: #01d901;
+    text-align: center;
+    padding: 10px;
+}
+.monopattino{
+    margin: 35px 0;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.monopattino>label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.container-barra{
+    width: 100%;
+    height: 30px;
+}
+.barra{
+    border-radius: 5px;
+    height: 100%;
+}
+.gino .barra{
+    width: 30%;
+    background-color: #f5b354;
+}
+.mike .barra{
+    width: 55%;
+    background-color: #1ec31f;
+}
+.fede .barra{
+    width: 15%;
+    background-color: #bf4142;
+}
